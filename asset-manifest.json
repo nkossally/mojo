@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mojo/static/css/main.ce2efcc5.css",
+    "main.js": "/mojo/static/js/main.89736d87.js",
+    "index.html": "/mojo/index.html",
+    "main.ce2efcc5.css.map": "/mojo/static/css/main.ce2efcc5.css.map",
+    "main.89736d87.js.map": "/mojo/static/js/main.89736d87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce2efcc5.css",
+    "static/js/main.89736d87.js"
+  ]
+}

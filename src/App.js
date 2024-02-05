@@ -95,7 +95,6 @@ function App() {
       if (data.p === "EUR/USD") {
         dispatch(addEURValue(data));
       }
-      console.log("message", data);
     };
 
     return () => ws.close();
@@ -121,7 +120,7 @@ function App() {
             <TableContainer sx={leftTableStyle}>
               <Table>
                 <TableHead>
-                  <TableRow>BTC</TableRow>
+                  <TableRow>BTC/USD</TableRow>
                   <TableRow>
                     <TableCell> Price</TableCell>
                     <TableCell>Size</TableCell>
@@ -144,7 +143,7 @@ function App() {
             <TableContainer>
               <Table>
                 <TableHead>
-                  <TableRow>ETH</TableRow>
+                  <TableRow>ETH/USD</TableRow>
                   <TableRow>
                     <TableCell> Price</TableCell>
                     <TableCell>Size</TableCell>

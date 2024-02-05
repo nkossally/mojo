@@ -5,7 +5,6 @@ export const chfSlice = createSlice({
   initialState: [],
   reducers: {
     addCHFValue: (state, action) => {
-      console.log("inside chf reducer");
       return [action.payload, ...state].slice(0, 20);
     },
   },
